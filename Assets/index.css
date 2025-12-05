@@ -1,0 +1,12 @@
+.navigation {
+  background-color: rgb(65, 158, 230);
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 10;
+  align-content: space-between;
+}
+.ul {
+  align-items: center;
+  
+}
