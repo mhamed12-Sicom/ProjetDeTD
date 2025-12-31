@@ -1,0 +1,58 @@
+.sensor-box {
+  width: 80%;
+  margin: 40px auto;
+  background: #f4f7fa;
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid #e3e6ea;
+}
+
+.sensor-title {
+  color: #1f7ebd;
+  margin-bottom: 15px;
+}
+
+.sensor-body {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.sensor-img {
+  width: 140px;
+  border-radius: 6px;
+}
+
+.sensor-text {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #444;
+}
+
+.sensor-btn {
+  margin-top: 25px;
+  padding: 12px 18px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background: #ff7a00;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.sensor-btn:hover {
+  opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .sensor-body {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sensor-img {
+    width: 180px;
+  }
+}
