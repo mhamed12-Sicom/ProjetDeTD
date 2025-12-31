@@ -6,6 +6,18 @@
     <link rel="stylesheet" href="/Assets/capteurStyle.css" />
     <title>Document</title>
   </head>
+  <body>
+    <div id="navbar-container"></div>
+
+    <script>
+      fetch("navCapteur.html")
+        .then((r) => r.text())
+        .then(
+          (html) =>
+            (document.getElementById("navbar-container").innerHTML = html)
+        );
+    </script>
+
     <div class="sensor-box">
       <h2 class="sensor-title">
         Photo-résistance (LDR) : capteur de luminosité.
