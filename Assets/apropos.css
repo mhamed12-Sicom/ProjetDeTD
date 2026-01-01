@@ -1,0 +1,91 @@
+.contact-section {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  margin: 30px auto;
+}
+
+.contact-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* passe en plusieurs lignes sur petit écran */
+}
+
+.contact-box {
+  width: 230px;
+  padding: 15px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.contact-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Icons */
+.icon {
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+
+/* Titles */
+.contact-box h3 {
+  color: #1f3363;
+  margin-bottom: 8px;
+}
+
+/* Text */
+.contact-box p {
+  color: #444;
+  margin: 4px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.lab-section {
+  width: 90%;
+  margin: 20px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid #d9dfe7;
+  box-shadow: 0 8px 18px rgba(22, 92, 254, 0.06);
+}
+
+/* Main title */
+.lab-title {
+  color: #1f3363;
+  margin-bottom: 10px;
+}
+
+/* Sub headings */
+.lab-subtitle {
+  color: #2b4d8a;
+  margin-top: 15px;
+}
+
+/* Text */
+.lab-text {
+  color: #444;
+  line-height: 1.6;
+}
+
+/* List */
+.lab-list {
+  margin-top: 8px;
+  padding-left: 18px;
+}
+
+.lab-list li {
+  margin-bottom: 6px;
+}
