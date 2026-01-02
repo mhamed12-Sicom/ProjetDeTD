@@ -1,5 +1,13 @@
-.navigation {
-}
+
 .ul {
   align-items: center;
+}
+.center-img {
+  display: block;
+  margin: 0 auto;
+}
+#homeImage{
+  text-align: center;
+  margin: auto;
+  padding: auto;
 }

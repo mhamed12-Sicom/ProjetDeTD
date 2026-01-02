@@ -3,14 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Assets/formulaire.css">
     <title>Document</title>
   </head>
   <body>
     <header>
+      <div id="navbar"></div>
+    <script src="navbar.js"></script>
       <h3>Formulaire pour ajouter un capteur :</h3>
     </header>
     <body>
+      <script>
+  // Sélection du formulaire
+  const formulaire = document.getElementById('monFormulaire');
+
+  // Événement submit
+  formulaire.addEventListener('submit', function(event) {
+    event.preventDefault(); // Empêche le rechargement de la page
+    alert("Le formulaire est bien envoyé !");
+    formulaire.reset(); // Optionnel : réinitialise le formulaire
+  });
+</script>
       <form action="formulaire.html">
+        <div class="formulaire">
         <p>
           Nom de Capteur :
           <input
@@ -46,6 +61,8 @@
             placeholder="exemple d'utilisation "
           />
         </p>
+        <button type="submit">Envoyer</button>
+        </div>
       </form>
     </body>
   </body>

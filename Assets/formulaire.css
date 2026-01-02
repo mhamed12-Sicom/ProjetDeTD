@@ -1,0 +1,17 @@
+.formulaire{
+    border: 1px solid grey;
+    border-radius: 1%;
+    text-align: center;
+    
+    background-color: rgb(249, 249, 249);
+    max-width: 410px;
+    margin: auto;
+    padding: 15px;
+}
+header h3{
+    color:rgb(6, 6, 127);
+    
+  font-family: Arial, sans-serif;
+    text-align: center;
+
+}
